@@ -8,17 +8,29 @@
         <div class="container">
             <!-- made a container to put in all data from this page-->
             <div >
-                <h1 class = "header_text">Maybe this is better?</h1>
-                <h1 class = "header_text">I hope so. It has different result too!</h1>
+                <h1 class = "header_text">Which is your favorite? Do you like this one the most?</h1>
+                <h1 class = "header_text">Choose wisely, every single answer has different results!</h1>
             </div>
             <!-- added text to the page-->
             <div class="gif_container">
-                <img src="https://media1.tenor.com/m/termX5OvksIAAAAC/flowers.gif" alt="Cute flowers giphy">
+                <img src="https://media1.tenor.com/m/N7qY2ad4n7UAAAAC/cat-flowers.gif" alt="Cute flowers giphy">
             </div>
             <!-- added image so it would actually resemble a choice making site at least somewhat-->
             <div class = "buttons">
-                <button class="btn" id="yesButton" onclick="location.href = 'index4.html'">This is cute.</button>
-                <button class="btn" id="noButton" onlclick="location.href = 'index5.html'">No, to the next one</button>
+                <button class="btn" id="yesButton" onclick="yesChose()">This is cute.</button>
+                <button class="btn" id="noButton" onclick="noChose()">No, to the next one.</button>
+
+                <script>
+
+                    function yesChose() {
+                        window.location.href = "index2.html";
+                    }
+
+                    function noChose() {
+                        window.location.href = "index3.html";
+                    }
+                    
+                </script>
                 
                 <!-- added buttons to the page-->
             </div>
