@@ -17,8 +17,20 @@
             </div>
             <!-- added image so it would actually resemble a choice making site at least somewhat-->
             <div class = "buttons">
-                <button class="btn" id="yesButton" onclick=window.location.href = "index2.html">This is cute.</button>
-                <button class="btn" id="noButton" onlclick=window.location.href = "index3.html">No, to the next one</button>
+                <button class="btn" id="yesButton" onclick="yesChose()">This is cute.</button>
+                <button class="btn" id="noButton" onlclick="noChose()">No, to the next one</button>
+
+                <script>
+
+                    function yesChose() {
+                        window.location.href = "index2.html";
+                    }
+
+                    function noChose() {
+                        window.location.href = "index3.html";
+                    }
+                    
+                </script>
                 
                 <!-- added buttons to the page-->
             </div>
