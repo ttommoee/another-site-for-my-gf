@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <!-- linking css to html so it wont look ugly-->
+    </head>
+    <body>
+        <div class="container">
+            <!-- made a container to put in all data from this page-->
+            <div >
+                <h1 class = "header_text">This is the last choice!</h1>
+                <h1 class = "header_text">If you won't choose, you'll be turned back to page 1.</h1>
+            </div>
+            <!-- added text to the page-->
+            <div class="gif_container">
+                <img src="https://media1.tenor.com/m/Mk0ceSsJ4DgAAAAC/anime-gif-anime.gif" alt="Cute flowers giphy">
+            </div>
+            <!-- added image so it would actually resemble a choice making site at least somewhat-->
+            <div class = "buttons">
+                <button class="btn" id="yesButton" onclick="yesChose()">This is cute.</button>
+                <button class="btn" id="noButton" onclick="noChose()">No, to the next one.</button>
+
+                <script>
+
+                    function yesChose() {
+                        window.location.href = "index6.html";
+                    }
+
+                    function noChose() {
+                        window.location.href = "index2.html";
+                    }
+                    
+                </script>
+                
+                <!-- added buttons to the page-->
+            </div>
+        </div>
+    </body>
+</html>
